@@ -1,0 +1,170 @@
+.hero-container {
+    margin-top: 4rem;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.hero-content, 
+.second-page-content {
+    flex: 1;
+}
+
+.hero-content h2,
+.second-page-content h2 {
+    font-size: 3.2rem;
+    font-weight: 600;
+    line-height: 5rem;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.hero-content p {
+    font-size: 1rem;
+    margin: 2rem;
+    text-align: center;
+}
+
+.partyRedirectButton {
+    text-align: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    display: grid;
+    text-decoration: none;
+}
+
+.partyRedirectButton a {
+    text-decoration: none;
+    color: #000;
+}
+
+.hero-img {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 5rem;
+}
+
+.hero-img img {
+    border-radius: 1rem;
+}
+
+.hero-img > div,
+.second-page-img > div {
+    display: flex;
+    align-items: flex-end;
+    gap: 2rem;
+  }
+  
+.hero-img > div >img,
+.second-page-img > img {
+    width: 25rem;
+    transition: all 0.3s ease;
+  }
+
+.second-page-container {
+    padding-top: 4rem;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.second-page-img {
+    margin-left: 4rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 5rem;
+}
+
+.second-page-img img {
+    width: 30rem;
+}
+
+.second-page-content p {
+    font-size: 1rem;
+    margin: 2rem;
+    text-align: center;
+}
+
+  @media (max-width: 1025px) {
+    .hero-content h2 {
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+
+    .hero-content p,
+    .second-page-content p{
+        font-size: 0.9rem;
+        line-height: 1.6rem;
+    }
+
+    .hero-img > div >img,
+    .second-page-img > div >img {
+        width: 20rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-container,
+    .second-page-container {
+        flex-direction: column;
+    }
+
+    .hero-img,
+    .second-page-img {
+        margin: 2rem 0 2rem 0;
+    }
+
+    .hero-container h2 {
+        margin-top: 3rem;
+        margin-right: 2rem;
+    }
+
+    .hero-content h2,
+    .hero-content p,
+    .second-page-content p {
+        width: auto;
+        text-align: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .hero-content h2 {
+        font-size: 2.2rem;
+        line-height: 3rem;
+    }
+
+    .hero-content p,
+    .second-page-content p {
+        font-size: 0.8rem;
+        line-height: 1.3rem;
+    }
+
+    .hero-img,
+    .second-page-img {
+        gap: 1rem;
+    }
+
+    .hero-img > div,
+    .second-page-img > div {
+       gap: 1rem;
+    }
+
+    .hero-img > div > img,
+    .second-page-img > div > img {
+        width: 10rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .second-page-content h2 {
+        margin-right: 2rem;
+    }
+}

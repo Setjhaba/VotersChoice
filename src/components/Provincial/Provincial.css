@@ -1,0 +1,41 @@
+.provincial-candidates-container {
+    margin: 3rem;
+    position: relative;
+}
+
+.provincial-candidates-container h5 {
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.provincial-candidates-content p {
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
+
+.provincial-candidates-content ul {
+    margin-top: 3rem;
+    margin-left: -2rem;
+    column-width: 500px;
+    list-style-type: none;
+    column-gap: 3rem;
+    line-height: 1rem;
+}
+
+.provincial-candidates-content a {
+    color: #000;    
+}
+
+@media (max-width:1024px) {
+    .provincial-candidates-container ul {
+        column-width: 300px;
+    }
+}
+
+@media (max-width:425px) {
+    .provincial-candidates-container {
+        margin-left: 1rem;
+    }
+}
