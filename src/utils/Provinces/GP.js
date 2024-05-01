@@ -29,7 +29,7 @@ export const GAUTENG= [
     },
     {
         id: 4,
-        title: "African Christian Democratic Party",
+        title: <a href="https://acdp.org.za/">African Christian Democratic Party (ACDP)</a>,
         icon: "",
         date: "15/03/2024",
         responsibility: [""],
@@ -71,7 +71,7 @@ export const GAUTENG= [
     },
     {
         id: 10,
-        title: "African National Congress",
+        title: <a href="https://www.anc1912.org.za/">African National Congress (ANC)</a>,
         icon: "",
         date: "15/03/2024",
         responsibility: [""],
@@ -92,7 +92,7 @@ export const GAUTENG= [
     },
     {
         id: 13,
-        title: "African Transformation Movement",
+        title: <a href="http://www.atm-sa.co.za/">African Transfomation Movement (ATM)</a>,
         icon: "",
         date: "15/03/2024",
         responsibility: [""],
@@ -155,7 +155,7 @@ export const GAUTENG= [
     },
     {
         id: 22,
-        title: "Build One South Africa",
+        title: <a href="https://www.bosa.co.za/">Build One South Africa (BOSA)</a>,
         icon: "",
         date: "15/03/2024",
         responsibility: [""],
@@ -169,21 +169,21 @@ export const GAUTENG= [
     },
     {
         id: 24,
-        title: "Congress of The People",
+        title: <a href="https://www.copesa.org.za/">Congress of the People (COPE)</a>,
         icon: "",
         date: "15/03/2024",
         responsibility: [""],
     },
     {
         id: 25,
-        title: "Democratic Alliance",
+        title: <a href="https://www.da.org.za/">Democratic Alliance (DA)</a>,
         icon: "",
         date: "15/03/2024",
         responsibility: [""],
     },
     {
         id: 26,
-        title: "Economic Freedom Fighters",
+        title: <a href="https://effonline.org/">Economic Freedom Fighters (EFF)</a>,
         icon: "",
         date: "15/03/2024",
         responsibility: [""],
@@ -197,7 +197,7 @@ export const GAUTENG= [
     },
     {
         id: 28,
-        title: "GOOD",
+        title: <a href="https://forgood.org.za/">GOOD</a>,
         icon: "",
         date: "15/03/2024",
         responsibility: [""],
@@ -211,7 +211,7 @@ export const GAUTENG= [
     },
     {
         id: 30,
-        title: "Inkatha Freedom Party",
+        title: <a href="https://www.ifp.org.za/">Inkatha Freedom Party (IFP)</a>,
         icon: "",
         date: "15/03/2024",
         responsibility: [""],
