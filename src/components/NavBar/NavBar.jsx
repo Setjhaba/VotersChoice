@@ -26,15 +26,15 @@ const NavBar = () => {
                     </li>
 
                     <li>
-                        <a href='national-candidates' className='menu-item'>National</a>
+                        <a href='/national-candidates' className='menu-item'>National</a>
                     </li>
 
                     <li>
-                        <a href='provincial-candidates' className='menu-item'>Provincial</a>
+                        <a href='/provincial-candidates' className='menu-item'>Provincial</a>
                     </li>
 
                     <li>
-                        <a href='contact' className='menu-item'>Contact</a>
+                        <a href='/contact' className='menu-item'>Contact</a>
                     </li>
                 </ul>
 
